@@ -1,0 +1,29 @@
+{
+    "name": "rebing0512/advert",
+    "description": "Jenson Advert Packages",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jenson",
+            "email": "rebing0512@aliyun.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "MBCore\\MAdvert\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MBCore\\MAdvert\\ServiceProvider"
+            ]
+        }
+    }
+}
