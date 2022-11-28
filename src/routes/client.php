@@ -10,9 +10,9 @@
 */
 Route::group([
     'namespace' => 'Client',
-    'prefix' => config('mbcore_avdert.client_prefix','client'),
+    'prefix' => config('mbcore_avdert.client_prefix','Mini'),
 ],function(\Illuminate\Routing\Router $router) {
-    $router->any('/',function (){
+    $router->any('/madvert',function (){
         return 'Jenson advert web route';
     });
 });
